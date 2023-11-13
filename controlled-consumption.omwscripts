@@ -1,0 +1,2 @@
+GLOBAL: scripts/plan9/controlled-consumption/controlled-consumption.lua
+PLAYER: scripts/plan9/controlled-consumption/message-handler.lua
