@@ -1,0 +1,14 @@
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+
+[*.lua]
+end_of_line = lf
+quote_style = single
+indent_style = space
+indent_size = 2
+continuation_indent = 2
+max_line_length = 88
+end_statement_with_semicolon = never
+call_arg_parentheses = remove
