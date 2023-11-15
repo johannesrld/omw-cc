@@ -1,3 +1,8 @@
+local API_REVISION = require 'openmw.core'.API_REVISION
+if API_REVISION < 45 then
+  print 'ERR: API_REVISION < 45'
+  return
+end
 local types = require 'openmw.types'
 local ItemUsage = require 'openmw.interfaces'.ItemUsage
 local async = require 'openmw.async'
